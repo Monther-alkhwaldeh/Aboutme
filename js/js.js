@@ -86,31 +86,50 @@ console.log(placesList);
 console.log(placesList.length);
 
 
-let attempt=6;
-let userGuess=prompt('please guess one of the top ten places' );
-let correct=false;
-while(attempt && !correct){
-  for (let i=0;i<placesList.length;i++){
+//  let attempt=6;
+ let userGuess=prompt('please guess one of the top ten places' );
+// let correct=false;
+// while(attempt && !correct){
+//   for (let i=0;i<placesList.length;i++){
+//     if(userGuess === placesList[i]){
+//       alert('your choice is coreect');
+//       correct=true;
+//       console.log(userGuess);
+//       correctAns+=1;
+//       console.log(correctAns);
+//       alert('you got a ' + correctAns + ' correct answers');
+//       break;
+//     }
+//     attempt-=1;
+//     userGuess=prompt('please try again you have' + attempt + 'remaining');
+//     console.log(correctAns);
+//     break;
+//   }
+//   if (correct ){
+//     break;
+//   }
+
+// }
+let flag=false;
+for(let b=0;b<7;b++){
+  for(let i=0;i<placesList.length;i++){
     if(userGuess === placesList[i]){
-      alert('your choice is coreect');
-      correct=true;
-      console.log(userGuess);
+      alert('right answer');
       correctAns+=1;
-      console.log(correctAns);
-      alert('you got a ' + correctAns + ' correct answers');
+      flag=true;
       break;
+
     }
-    attempt-=1;
-    userGuess=prompt('please try again you have' + attempt + 'remaining');
-    console.log(correctAns);
+  }
+  
+  if(flag){
     break;
   }
-  if (correct ){
-    break;
-  }
+  alert('its wrong');
+  userGuess=prompt('ask again ' );
 
 }
-
+alert('you got a ' + correctAns + ' correct answers');
 
 
 

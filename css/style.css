@@ -1,3 +1,20 @@
 * {
     background-color: gray;
 }
+
+ header h1 {
+    background-color: green;
+}
+ #name{
+    background-color: salmon;
+}
+#study{
+    background-color:green;
+  
+}
+.cll{
+    background-color: teal;
+}
+body main nav ol li{
+    color:red ;
+}
