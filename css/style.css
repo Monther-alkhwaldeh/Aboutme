@@ -1,20 +1,94 @@
 * {
-    background-color: gray;
+    background-color: cyan;
 }
 
  header h1 {
-    background-color: green;
+    background-color: black;
+    color: red;
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
 }
- #name{
-    background-color: salmon;
+main{
+    border: 2px solid red;
 }
-#study{
-    background-color:green;
-  
+
+div {
+    border: 2px solid gray;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Ranchers', cursive;
+
 }
-.cll{
-    background-color: teal;
+main div .best{
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    font-family: 'Ranchers', cursive;
 }
-body main nav ol li{
-    color:red ;
+.nplaces{
+    margin: 40px;
+    padding: 20;
+    border: solid blue;
+}
+.g{
+    position: static;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.l{
+  position: static;  
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+.r{
+    position: static;  
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.p{
+    position: static;  
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.c{
+    position: static;  
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.m{
+    position: static;  
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.ma{
+    position: static;  
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.d{
+    position: static;  
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.b{
+    position: static;  
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.ba{
+    position: static;  
+    text-align: center;
+    font-size: 30px;
+    color: red;
 }
